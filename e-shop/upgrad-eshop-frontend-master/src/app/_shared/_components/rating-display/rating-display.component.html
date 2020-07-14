@@ -1,0 +1,13 @@
+<span>
+  <ng-container *ngIf="icons.length >0">
+
+    <span *ngFor="let icon of icons"> <mat-icon class="">{{icon}}</mat-icon></span>
+
+  </ng-container>
+
+  <ng-container *ngIf="icons.length == 0">
+    <span>{{defaultValue}}</span>
+  </ng-container>
+</span>
+
+

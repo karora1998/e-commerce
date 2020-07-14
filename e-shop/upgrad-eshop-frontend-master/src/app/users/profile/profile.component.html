@@ -1,0 +1,21 @@
+<div class="user-panel-container">
+  <div fxLayout="row wrap" class="flex-wrapper">
+    <div fxFlex="50"  class="col">
+      <mat-card class="p-0">
+        <mat-card-header class="p-1 account-card-title" fxLayoutAlign="space-between center">
+          <mat-card-title class="m-0"><h3>Account Information</h3></mat-card-title>
+          <a mat-icon-button routerLink="/user/profile/edit">
+            <mat-icon class="text-muted">edit</mat-icon>
+          </a>
+        </mat-card-header>
+        <div class="divider"></div>
+        <mat-card-content class="p-2 text-muted account-card-content" *ngIf="user">
+          <p>{{user.firstName}} {{user.lastName}} </p>
+          <p>{{user.email}}</p>
+          <p>{{user.phoneNumber}}</p>
+          <p><a routerLink="/user/profile/changepassword" class="primary-text">Change password</a></p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

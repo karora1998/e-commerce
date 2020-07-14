@@ -1,0 +1,40 @@
+<div fxFlexFill *ngIf="productsLoaded">
+
+  <div style="float: right;    margin-right: 20px;    margin-top: 20px;    margin-bottom: 40px;">
+    &nbsp;
+    <button mat-raised-button  color="primary"  (click)="add()"> <mat-icon>add</mat-icon>Add New Product</button>
+  </div>
+  <app-product-list-header (onSortChange)="reloadBasedOnSort($event)" (onRatingChange)="reloadBasedOnRating($event)"></app-product-list-header>
+
+
+  <div fxLayout="row wrap" fxLayoutGap="32px" fxLayoutAlign="flex-start">
+
+    <ng-container *ngFor="let product of products ">
+
+
+      <app-edit-product-container [product]="product" (onEdit)="onEdit($event)" (onDelete)="onDelete($event)" (onRemoveDeal)="onRemoveDeal($event)"></app-edit-product-container>
+    </ng-container>
+
+  </div>
+
+  <div fxFlexFill >
+
+    <mat-divider style="margin-top: 20px"></mat-divider>
+    <div fxFlexFill fxLayoutAlign="end center">
+
+      <mat-paginator [length]="pageable.total"
+                     [pageSize]="pageable.itemsPerPage"
+                     [pageIndex]="pageable.pageNo"
+                     [pageSizeOptions]="pageSizeOptions"
+
+                     (page)="onPageChange($event)"
+      >
+      </mat-paginator>
+
+
+    </div>
+
+
+  </div>
+</div>
+

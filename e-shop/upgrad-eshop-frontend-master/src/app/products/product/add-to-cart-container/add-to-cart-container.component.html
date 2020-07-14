@@ -1,0 +1,11 @@
+<div fxLayout="row" fxLayout.xs="column" fxLayoutAlign="'center center'" class="text-muted">
+  <div *ngIf="product?.availableItems > 0 ">
+<app-choose-quantity [availableItems]="product.availableItems"  (onCountChange)="updateCount($event)"></app-choose-quantity>
+  </div>
+  <div >
+    <button mat-icon-button matTooltip="Add to cart" color="primary" *ngIf="product?.availableItems > 0" (click)="validateUserAndAddToCart(product)"><mat-icon>shopping_cart</mat-icon> Add to Cart</button>
+  </div>
+</div>
+<div *ngIf="product?.availableItems == 0 " class="bg-warn p-1 mt-2">
+  Sorry, this item is unavailable. Please choose a different one.
+</div>

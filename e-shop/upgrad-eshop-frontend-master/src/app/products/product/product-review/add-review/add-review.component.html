@@ -1,0 +1,42 @@
+<ng-container *ngIf="product">
+
+  <mat-card class="h-100 p-10 mb-20" >
+
+    <form [formGroup]="addReviewForm" (ngSubmit)="onAddReviewFormSubmit()">
+
+
+      <h3 class="mt-20">Your Review On Product</h3>
+
+    <div  >
+
+      <span><app-rating-input-container (onValueChange)="updateStar($event)"></app-rating-input-container></span>
+
+
+
+    </div>
+      <div class="mt-30">
+
+        <mat-form-field class="w-100">
+
+          <textarea matInput placeholder="Enter your Comment" formControlName="comment"  rows="10"  required
+                    cdkTextareaAutosize></textarea>
+          <mat-error *ngIf=" addReviewForm.controls.comment.errors?.required">Comment is required
+          </mat-error>
+        </mat-form-field>
+
+      </div>
+
+
+
+    <div>
+      <button mat-raised-button color="primary" type="submit">Add Review</button>
+    </div>
+
+    </form>
+
+  </mat-card>
+
+
+
+
+</ng-container>

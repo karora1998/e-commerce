@@ -1,0 +1,31 @@
+<div fxFlexFill>
+
+
+  <h2>Trending Deals</h2>
+  <div fxLayout="row wrap" fxLayoutGap="32px" fxLayoutAlign="flex-start">
+
+    <ng-container *ngFor="let product of products ">
+      <app-product-item-thumbnail [product]="product"></app-product-item-thumbnail>
+    </ng-container>
+
+  </div>
+
+  <div fxFlexFill *ngIf="dealsLoaded">
+
+    <mat-divider style="margin-top: 20px"></mat-divider>
+    <div fxFlexFill fxLayoutAlign="end center">
+
+      <mat-paginator [length]="pageable.total"
+                     [pageSize]="pageable.itemsPerPage"
+                     [pageIndex]="pageable.pageNo"
+                     [pageSizeOptions]="counts"
+
+                     (page)="onPageChange($event)"
+      >
+      </mat-paginator>
+
+
+    </div>
+
+
+  </div>

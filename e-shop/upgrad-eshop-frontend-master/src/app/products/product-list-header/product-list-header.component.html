@@ -1,0 +1,40 @@
+<div fxFlexFill fxLayoutAlign="end center">
+
+  <div style="float: right ;margin-right: 50px">
+
+    <span style="margin-right:40px">
+
+      By Rating &nbsp;
+     <mat-menu #ratingMenu="matMenu">
+      <button mat-menu-item *ngFor="let rating of ratingTypes" (click)="changeRating(rating)">
+        <app-rating-display [stars]="rating.value" defaultValue="All"></app-rating-display>
+      </button>
+    </mat-menu>
+    <button mat-icon-button [matMenuTriggerFor]="ratingMenu"><span class="mat-button-wrapper">
+       <span class="lbl-selected-rating"> {{selectedRating.label}}</span>
+           <mat-icon class=" caret">arrow_drop_down</mat-icon>
+
+        </span>
+
+    </button>
+
+    </span>
+    <span>
+    Sort By &nbsp;
+    <mat-menu #sortMenu="matMenu">
+      <button mat-menu-item *ngFor="let sort of sortTypes" (click)="changeSorting(sort)">
+        <span>{{sort.label}}</span>
+      </button>
+    </mat-menu>
+    <button mat-icon-button [matMenuTriggerFor]="sortMenu"><span class="mat-button-wrapper">
+       <span class="lbl-selected-sort">{{selectedSort.label}}</span>
+           <mat-icon class=" caret">arrow_drop_down</mat-icon>
+
+        </span>
+
+    </button>
+    </span>
+  </div>
+  <div style="clear:both"></div>
+</div>
+<mat-divider style="margin-bottom: 20px"></mat-divider>

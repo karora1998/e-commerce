@@ -1,0 +1,13 @@
+<ng-container>
+
+
+
+  <h2>Your Items</h2>
+  <ng-container *ngFor="let cartItem of cartItems">
+
+    <app-view-cart-item [cartItem]="cartItem"></app-view-cart-item>
+  </ng-container>
+
+
+
+</ng-container>

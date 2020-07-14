@@ -1,0 +1,36 @@
+
+      <div fxFlex="0 1 calc(33.3% - 32px)" class="mb-20">
+
+
+
+      <mat-card >
+        <mat-chip-list *ngIf="product.dealPrice" style="position: absolute">
+          <mat-chip color="warn" selected="true" style="font-size: 10px">Now Only at {{product.dealPrice}}</mat-chip>
+        </mat-chip-list>
+        <a [routerLink]="['/products/detail', product.productId]" >
+          <img [src]="product.imageUrl" alt="">
+        </a>
+        <a [routerLink]="['/products/detail', product.productId]"  [title]="product.name">
+          {{product.name | truncateText:43}}
+        </a>
+        <div fxLayout="row" fxLayoutAlign="space-between center" >
+          <div fxLayout="column" fxLayoutAlign="center start">
+
+            <ng-container *ngIf="product.dealPrice > 0 ">
+              <p class="old-price text-muted"><span >{{product.price | currency:'INR' }}</span></p>
+              <p class="new-price">{{product.dealPrice | currency:'INR'}}</p>
+            </ng-container>
+            <ng-container *ngIf="product.dealPrice <= 0 ">
+              <p class="new-price">{{product.price | currency:'INR'}}</p>
+            </ng-container>
+            <app-rating-display [stars]="product.overAllRating" defaultValue="New"></app-rating-display>
+          </div>
+
+        </div>
+      </mat-card>
+
+
+
+
+  </div>
+

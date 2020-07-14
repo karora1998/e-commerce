@@ -1,0 +1,18 @@
+<ng-container>
+  <ng-template matStepLabel>Order Summary</ng-template>
+  <div fxLayout="column" fxFlexFill fxLayoutAlign="center center">
+
+    <ng-container *ngFor="let cartItem of cartItems">
+      <app-cart-item [cartItem]="cartItem" (onRefreshCart)="reload()"></app-cart-item>
+    </ng-container>
+    <br>
+
+  </div>
+
+  <div class="w-100">
+    <button class="pull-left" color="warn" mat-raised-button (click)="onCleanCart()">Remove all items in cart</button>
+    <button class="pull-right" color="primary" mat-raised-button (click)="onContinue()">Continue</button>
+  </div>
+
+
+</ng-container>

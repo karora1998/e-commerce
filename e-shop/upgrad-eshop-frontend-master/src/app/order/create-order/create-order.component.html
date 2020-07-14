@@ -1,0 +1,21 @@
+<div fxLayout="column" fxLayoutAlign="center center" class="w-100" *ngIf="isUserLoggedIn">
+  <mat-horizontal-stepper [linear]="true" #stepper  >
+    <mat-step label="Items">
+      <app-list-cart (onComplete)="goToChooseAddress()" ></app-list-cart>
+    </mat-step>
+
+    <mat-step label="Choose Address">
+
+      <app-choose-address (onComplete)="updateAddress($event)"></app-choose-address>
+
+    </mat-step>
+
+    <mat-step label="Order">
+      <app-confirm-order *ngIf="order" [order]="order" (onComplete)="onMakePayment()"  (onReload)="onReloadOrder($event)"></app-confirm-order>
+
+    </mat-step>
+    <mat-step label="Make Payment">
+      <app-make-payment *ngIf="payment"  [payment]="payment" (onPaymentComplete)="refreshCartAndRedirectToOrderDetail($event)"></app-make-payment>
+    </mat-step>
+  </mat-horizontal-stepper>
+</div>

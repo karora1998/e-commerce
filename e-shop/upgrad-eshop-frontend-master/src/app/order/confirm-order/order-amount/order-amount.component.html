@@ -1,0 +1,12 @@
+<div class="mt-20" *ngIf="order">
+  <div class="w-100">
+    <span class="pull-right mat-primary"
+          style="font-weight: bold;color: #388E3C">Discount:  {{calculateDiscountAmount() |currency:"INR"}}</span>
+  </div>
+  <div class="clear-both">&nbsp;</div>
+  <div class="w-100">
+    <span class="pull-right mat-primary"
+          style="font-weight: bold;">Total :  {{order.finalAmount |currency:"INR"}}</span>
+  </div>
+  <div class="clear-both">&nbsp;</div>
+</div>

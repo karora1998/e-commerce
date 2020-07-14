@@ -1,0 +1,45 @@
+<mat-card class="cart-card" *ngIf="cartItem">
+
+  <div fxLayout="row wrap">
+    <div fxFlex="100" fxFlex.gt-sm="20" class="px-1">
+
+
+
+      <div fxLayout="column" fxLayoutAlign="center center">
+        <a [routerLink]="['/products/detail', product.productId]">
+          <img [src]="product.imageUrl" [alt]="product.name" class="cart-img">
+        </a>
+        <br/>
+      </div>
+      <div fxLayout="column" fxLayoutAlign="center center">
+
+        <ng-container *ngIf="product.dealPrice > 0 ">
+          <p class="old-price text-muted"><span>{{product.price | currency:'INR' }}</span></p>
+          <p class="new-price">{{product.dealPrice | currency:'INR'}}</p>
+        </ng-container>
+        <ng-container *ngIf="product.dealPrice <= 0 ">
+          <p class="new-price">{{product.price | currency:'INR'}}</p>
+        </ng-container>
+
+      </div>
+
+
+
+    </div>
+    <div fxFlex="100" fxFlex.gt-sm="40" class="px-1">
+
+      <a [routerLink]="['/products/detail', product.productId]"> <h3>{{product.name}}</h3></a>
+      <br/>
+      <div class="text-muted">{{product.description | truncateText:100}}</div>
+    </div>
+    <div fxFlex="100" fxFlex.gt-sm="40" class="px-1" fxLayoutAlign="end center"  >
+<span style="font-weight: bold">  {{product.calculatedPrice | currency:'INR'}} X {{cartItem.quantity}} = {{(product.calculatedPrice * cartItem.quantity) | currency:'INR'}}</span>
+    </div>
+
+  </div>
+  <br/>
+
+
+
+
+</mat-card>

@@ -1,0 +1,32 @@
+<div fxFlexFill>
+<app-product-list-header (onSortChange)="reloadBasedOnSort($event)" (onRatingChange)="reloadBasedOnRating($event)"></app-product-list-header>
+
+
+    <div fxLayout="row wrap" fxLayoutGap="32px" fxLayoutAlign="flex-start">
+
+    <ng-container *ngFor="let product of products ">
+      <app-product-item-thumbnail [product]="product"></app-product-item-thumbnail>
+    </ng-container>
+
+  </div>
+
+  <div fxFlexFill *ngIf="productsLoaded">
+
+    <mat-divider style="margin-top: 20px"></mat-divider>
+    <div fxFlexFill fxLayoutAlign="end center">
+
+      <mat-paginator [length]="pageable.total"
+                     [pageSize]="pageable.itemsPerPage"
+                     [pageIndex]="pageable.pageNo"
+                     [pageSizeOptions]="[5, 10, 25, 100]"
+
+                     (page)="onPageChange($event)"
+      >
+      </mat-paginator>
+
+
+    </div>
+
+
+  </div>
+

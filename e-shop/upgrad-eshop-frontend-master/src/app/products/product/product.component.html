@@ -1,0 +1,78 @@
+<div class="center-container" *ngIf="productLoaded">
+
+  <div class="mb-20" style="flex-flow: row wrap; box-sizing: border-box; display: flex;">
+    <div style="flex: 1 1 35%; box-sizing: border-box; max-width: 35%;">
+
+      <mat-card class="product-image">
+        <mat-chip-list *ngIf="getDiscount() > 0">
+          <mat-chip class="discount-container" color="warn" selected="true" >{{getDiscount()}}% OFF</mat-chip>
+        </mat-chip-list>
+        <button mat-icon-button fxHide="false" fxHide.gt-md>
+          <mat-icon>fullscreen</mat-icon>
+        </button>
+        <img [src]="product.imageUrl"/>
+      </mat-card>
+
+
+    </div>
+    <div style="flex: 1 1 45%; box-sizing: border-box; max-width: 45%;padding-left: 30px;">
+
+
+      <h2>{{product?.name}}</h2>
+      <div class="p-10 lh">
+        <p><span class="text-muted fw-500">Category: </span><span>{{ product.category}}</span></p>
+        <p><span
+          class="text-muted fw-500">Availibility: </span><span class="product-status">{{ (product?.availableItems > 0) ? 'In stock' : 'Unavailable'}}</span>
+        </p>
+      </div>
+      <div class="p-10">
+        <app-rating-display [stars]="product?.overAllRating" defaultValue="No Ratings Available"></app-rating-display>
+      </div>
+      <p class="p-10 text-muted lh">{{product?.description}}</p>
+
+      <div class="divider mt-10"></div>
+      <div class="p-20">
+
+        <ng-container *ngIf="product.dealPrice > 0 ">
+          <h3 class="old-price text-muted"><span>{{product.price | currency:'INR' }}</span></h3>
+          <h2 class="new-price">{{product.dealPrice | currency:'INR'}}</h2>
+        </ng-container>
+        <ng-container *ngIf="product.dealPrice <= 0 ">
+          <h2 class="new-price">{{product.price | currency:'INR'}}</h2>
+        </ng-container>
+
+      </div>
+
+
+      <div class="p-10">
+        <app-add-to-cart-container [product]="product"></app-add-to-cart-container>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <mat-divider></mat-divider>
+  <div fxLayout="row wrap" class="mt-20">
+    <div class="w-100">
+      <mat-card>
+        <mat-tab-group [@.disabled]="true" [selectedIndex]="0">
+          <mat-tab label="Description">
+            <div class="p-20">
+
+              {{product.description}}
+            </div>
+          </mat-tab>
+          <mat-tab label="Reviews">
+            <app-product-review [product]="product"></app-product-review>
+          </mat-tab>
+        </mat-tab-group>
+      </mat-card>
+    </div>
+
+  </div>
+
+
+</div>

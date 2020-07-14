@@ -1,0 +1,36 @@
+<div *ngIf="canShowSearch" class="rounded" fxFlex fxLayout="row" fxLayoutAlign="start center"  fxHide fxShow.gt-sm>
+
+  <div   fxLayoutAlign="start center" style="width: 40%" >
+
+    <span>
+    <mat-menu #categoriesMenu="matMenu">
+      <button mat-menu-item  (click)="resetCategory()">
+        <span>{{DEFAULT_CATEGORY}}</span>
+      </button>
+
+      <button mat-menu-item *ngFor="let category of categories$ | async" (click)="changeSelectedCategory(category)">
+        <span>{{category}}</span>
+      </button>
+    </mat-menu>
+    <button mat-icon-button [matMenuTriggerFor]="categoriesMenu"><span class="mat-button-wrapper">
+       <span>{{selectedCategory}}</span>
+           <mat-icon class=" caret">arrow_drop_down</mat-icon>
+
+        </span>
+
+    </button>
+   </span>
+  </div>
+  <div   fxLayoutAlign="end center"  >
+
+    <input matInput  type="text" class="search-box" [(ngModel)]="searchString"  style="font-size:18px"
+           placeholder="Type to search Products...">
+    <button mat-mini-fab="" type="button" class="search-btn   mat-mini-fab  " (click)="search()">
+      <span ><mat-icon class="mat-icon " aria-hidden="true">search</mat-icon></span>
+
+    </button>
+
+  </div>
+
+
+</div>

@@ -1,0 +1,21 @@
+<ng-container *ngIf="address">
+  <h2>Deliver To</h2>
+  <mat-card class="choose-address-item" >
+
+
+
+    <mat-card-content>
+      <h3> {{address.name | titlecase }}</h3>
+      <p> {{address.street}}</p>
+      <p> {{address.landmark}}</p>
+      <p> {{address.city}}</p>
+      <p> {{address.state}}</p>
+      <p> {{address.zipcode}}</p>
+      <p> Phone: {{address.phone}}</p>
+
+    </mat-card-content>
+
+
+
+  </mat-card>
+</ng-container>

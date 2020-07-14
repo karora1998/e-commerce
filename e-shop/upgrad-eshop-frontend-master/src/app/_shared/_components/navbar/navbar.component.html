@@ -1,0 +1,51 @@
+<div class="navbar-container" fxFlex="40" fxShow="true" fxHide.lt-md fxLayout="row" fxLayoutAlign="end center">
+  <div fxLayoutAlign="center center">
+
+    <ng-container>
+      <app-cart-icon></app-cart-icon>
+    </ng-container>
+
+
+    <ng-container *ngIf="isLoggedIn; else signInBlock">
+
+      <mat-menu #appMenu="matMenu">
+        <a mat-menu-item [routerLink]="['/user/profile']">Edit Profile</a>
+        <a mat-menu-item [routerLink]="['/user/addresses']">Addresses</a>
+        <a mat-menu-item [routerLink]="['/orders/history']">Order History</a>
+
+
+        <button mat-menu-item (click)="signOut()">Sign Out</button>
+
+      </mat-menu>
+
+      <button class="navbar-user-menu" mat-icon-button [matMenuTriggerFor]="appMenu">
+        <mat-icon class=" account-icon">person</mat-icon>
+        <span>Welcome {{user.userName | titlecase}}</span>
+        <mat-icon class=" caret">arrow_drop_down</mat-icon>
+      </button>
+
+    </ng-container>
+
+
+    <ng-template #signInBlock>
+
+
+      <mat-menu #appMenu="matMenu">
+
+        <a mat-menu-item [routerLink]="['/auth']">Login</a>
+
+
+      </mat-menu>
+
+      <button class="navbar-sign-in-menu" mat-icon-button [matMenuTriggerFor]="appMenu">
+        <mat-icon class=" account-icon">person</mat-icon>
+        <span>Account</span>
+        <mat-icon class=" caret">arrow_drop_down</mat-icon>
+      </button>
+
+    </ng-template>
+
+  </div>
+
+
+</div>

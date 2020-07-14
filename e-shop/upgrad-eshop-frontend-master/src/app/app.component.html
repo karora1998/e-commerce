@@ -1,0 +1,44 @@
+<div style="height: 100vh;">
+  <app-loader></app-loader>
+  <mat-toolbar color="primary">
+    <mat-toolbar-row fxLayoutAlign="space-between center">
+
+      <div fxFlex="20">
+        <button mat-icon-button (click)="sidemenu.toggle()" fxShow="true" fxHide.gt-sm>
+          <mat-icon>menu</mat-icon>
+        </button>
+        <a class="logo" routerLink="/" (click)="closeSubMenus()">Upgrad Eshop</a>
+      </div>
+
+      <app-searchbar></app-searchbar>
+        <app-navbar></app-navbar>
+
+    </mat-toolbar-row>
+  </mat-toolbar>
+<app-sub-navbar></app-sub-navbar>
+
+
+  <mat-sidenav-container >
+    <mat-sidenav #sidemenu>
+      <mat-nav-list>
+        <app-sidebar></app-sidebar>
+        <a (click)="sidemenu.toggle()" mat-list-item>
+          <mat-icon>close</mat-icon> Close
+        </a>
+      </mat-nav-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content >
+
+
+        <router-outlet></router-outlet>
+
+      <app-footer></app-footer>
+
+    </mat-sidenav-content>
+
+  </mat-sidenav-container>
+</div>
+
+
+

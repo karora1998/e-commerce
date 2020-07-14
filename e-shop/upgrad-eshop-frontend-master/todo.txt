@@ -1,0 +1,42 @@
+https://www.thecodecampus.de/blog/virtual-scrolling-in-angular-7/
+
+https://medium.com/codetobe/learn-how-to-drag-drop-items-in-angular-7-20395c262ab0
+
+
+Ivy
+https:00000000000000000000000000000000001111111111111111111111111111111-
+
+
+ [] [lar-engine-9cde471f42cf
+
+
+https://medium.com/angular-in-depth/improve-performance-with-web-workers-497931fdef1b
+
+
+For material & Layout
+ng add @angular/materialnpm i -s @angular/flex-                                                                                                                            
+.888888888888888888888888888888888888888888888888
+...710
+ 
+ 
+ 
+ https://netbasal.com/set-state-object-when-navigating-in-angular-7-2-b87c5b977bb
+ 
+ 
+ 
+ 
+https://tburleson-layouts-demos.firebaseapp.com/#/docs
+ 
+ 
+ 
+ {
+  "city": "string",
+  "landmark": "string",
+  "name": "string",
+  "phone": "string",
+  "state": "string",
+  "street": "string",
+  "zipcode": "string"
+}
+
+

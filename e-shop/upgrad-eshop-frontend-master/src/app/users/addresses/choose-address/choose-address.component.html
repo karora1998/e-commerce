@@ -1,0 +1,56 @@
+<div fxFlexFill>
+
+  <h2>Choose Delivery Address</h2>
+
+
+  <div class="w-100">
+
+    <button class="pull-right" color="primary" mat-raised-button (click)="add()">Add New Address</button>
+  </div>
+  <div class="clear-both"></div><br/>
+
+  <div fxLayout="row wrap" fxLayoutGap="32px" fxLayoutAlign="flex-start">
+
+    <ng-container *ngFor="let address of addresses |async ">
+
+      <div fxFlex="0 1 calc(33.3% - 32px)" class="mb-20 address-item">
+
+        <mat-card class="choose-address-item" [ngClass]="{'selected-address-item' : isSelected(address)}" (click)="select(address)">
+
+
+
+          <mat-card-content>
+            <p> {{address.name | titlecase }}</p>
+            <p> {{address.street}}</p>
+            <p> {{address.landmark}}</p>
+            <p> {{address.city}}</p>
+            <p> {{address.state}}</p>
+            <p> {{address.zipcode}}</p>
+            <p> Phone: {{address.phone}}</p>
+
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-flat-button color="primary" (click)="select(address)">Select</button>
+            &nbsp;
+            &nbsp;
+
+          </mat-card-actions>
+
+
+        </mat-card>
+
+
+      </div>
+
+    </ng-container>
+  </div>
+  <div class="w-100">
+    <mat-error *ngIf="showSelectAddressError">Select an address to continue</mat-error>
+
+  </div>
+  <div class="w-100">
+
+    <button class="pull-right" color="primary" mat-raised-button (click)="onContinue()">Continue</button>
+  </div>
+
+</div>

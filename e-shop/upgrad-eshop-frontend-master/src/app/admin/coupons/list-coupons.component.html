@@ -1,0 +1,74 @@
+<div fxLayout="row" fxLayoutAlign="space-around center">
+  <div fxFlex="66.6" fxLayoutAlign="start" class="mt-30" *ngIf="couponsLoaded">
+    <div fxFlexFill>
+
+      <div class="pull-left"><h2>Coupons</h2></div>
+      <div class="pull-right"><button mat-raised-button  color="primary"  (click)="add()"> <mat-icon>add</mat-icon>Add New Coupon</button></div>
+      <div class="clear-both"></div>
+
+
+
+    <table   mat-table [dataSource]="coupons" class="mat-elevation-z8">
+
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef> ID</th>
+        <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef> Name</th>
+        <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="couponCode">
+        <th mat-header-cell *matHeaderCellDef> Code</th>
+        <td mat-cell *matCellDef="let element">
+          <button mat-raised-button color="primary" type="button" (click)="copyCoupon(element.couponCode)">
+           Copy Code
+          </button>
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="amount">
+        <th mat-header-cell *matHeaderCellDef> Amount</th>
+        <td mat-cell *matCellDef="let element"> {{element.amount}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="status">
+        <th mat-header-cell *matHeaderCellDef> Status</th>
+        <td mat-cell *matCellDef="let element"> {{element.status}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="Operations">
+        <th mat-header-cell *matHeaderCellDef> Operations</th>
+        <td mat-cell *matCellDef="let element">   <button mat-mini-fab  color="warn"  (click)="delete(element)" title="Delete Coupons"> <mat-icon>delete</mat-icon></button></td>
+      </ng-container>
+
+
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+    </table>
+
+      <div fxFlexFill fxLayoutAlign="end center" style="background-color: white">
+
+        <mat-paginator [length]="pageable.total"
+                       [pageSize]="pageable.itemsPerPage"
+                       [pageIndex]="pageable.pageNo"
+                       [pageSizeOptions]="counts"
+
+                       (page)="onPageChange($event)"
+        >
+        </mat-paginator>
+
+
+      </div>
+      <mat-divider style="margin-top: 20px"></mat-divider>
+    </div>
+
+
+
+
+  </div>
+</div>

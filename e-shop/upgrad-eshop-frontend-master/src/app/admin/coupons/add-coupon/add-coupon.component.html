@@ -1,0 +1,31 @@
+<div fxLayout="row" fxLayoutAlign="space-around center">
+  <div fxFlex="66.6" fxLayoutAlign="start" class="mt-30" *ngIf="isLoaded" >
+<div class="p-20 mt-10">
+  <h2> Add new Coupon</h2>
+  <form [formGroup]="couponForm" (ngSubmit)="onCouponFormSubmit()">
+    <div fxLayout="row wrap">
+      <div fxFlex="100" fxFlex.gt-sm="100" class="px-1">
+        <mat-form-field class="w-100">
+          <input matInput placeholder="Name" formControlName="name" required>
+          <mat-error *ngIf="couponForm.controls.name.errors?.required">Name is required</mat-error>
+        </mat-form-field>
+      </div>
+
+
+      <div fxFlex="100" fxFlex.gt-sm="100" class="px-1">
+        <mat-form-field class="w-100">
+          <input matInput placeholder="Amount" formControlName="amount" required>
+          <mat-error *ngIf="couponForm.controls.amount.errors?.required">Amount is required</mat-error>
+          <mat-error *ngIf="couponForm.controls.amount.hasError('min')">Minimum should be 1</mat-error>
+        </mat-form-field>
+      </div>
+
+      <div fxFlex="100" class="text-center mt-2">
+        <button mat-raised-button color="primary" type="submit">Create</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+  </div>
+</div>

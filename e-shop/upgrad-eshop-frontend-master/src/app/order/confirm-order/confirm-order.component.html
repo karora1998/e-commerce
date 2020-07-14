@@ -1,0 +1,34 @@
+<div fxLayout="column" fxFlexFill fxLayoutAlign="center center" *ngIf="order">
+  <div fxLayout="row wrap">
+    <div fxFlex="100" fxFlex.gt-sm="100" class="p-20">
+      <div fxLayout="column" fxFlexFill fxLayoutAlign="center center">
+
+        <div fxLayout="row wrap">
+          <div fxFlex="100" fxFlex.gt-sm="70" class="p-20">
+        <app-your-items [cartItems]="order.cart.cartItems" ></app-your-items>
+
+          </div>
+          <div fxFlex="100" fxFlex.gt-sm="30" class="p-20" ngClass.sm="mt-20" ngClass.xs="mt-20">
+
+            <app-your-address [address]="order.shippingAddress"></app-your-address>
+
+
+            <app-apply-coupon  [orderId]="order.id" (onApply)="onReload.emit($event)" ></app-apply-coupon>
+
+            <app-order-amount [order]="order"></app-order-amount>
+
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="w-100">
+
+        <button class="pull-right" color="primary" mat-raised-button (click)="onComplete.emit($event)">Make Payment</button>
+      </div>
+
+    </div>
+
+  </div>
+</div>

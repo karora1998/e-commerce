@@ -1,0 +1,16 @@
+<span>
+  <ng-container *ngIf="icons.length >0">
+
+    <span *ngFor="let icon of icons; let i = index;">
+         <button mat-mini-fab [color]="getFrom(icon)" (click)="updateButtons(i+1)">
+
+              <mat-icon class="">{{icon}}</mat-icon>
+        </button>
+
+
+
+    </span>
+
+  </ng-container>
+
+</span>

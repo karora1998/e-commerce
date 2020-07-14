@@ -1,0 +1,37 @@
+:host {
+  display: block;
+  width: 300px;
+  min-width: 300px;
+  height: 300px;
+  min-height: 300px;
+  margin-bottom: 60px;
+
+  a, a:active, a:link, a:visited {
+    text-decoration: none;
+    color: #0066c0;
+  }
+  a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #c45500;
+  }
+
+  img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+    height: 150px; /* Set a small width */
+    min-width: 150px;
+    min-height: 150px;
+  }
+
+  /* Add a hover effect (blue shadow) */
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+
+}
+
+

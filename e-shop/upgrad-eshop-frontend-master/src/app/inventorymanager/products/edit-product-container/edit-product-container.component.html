@@ -1,0 +1,47 @@
+
+<div fxFlex="0 1 calc(33.3% - 32px)" class="mb-20" *ngIf="product">
+
+
+
+  <mat-card >
+
+    <mat-chip-list *ngIf="product.dealPrice" style="position: absolute">
+      <mat-chip color="warn" selected="true" style="font-size: 10px;cursor: pointer" (click)="removeDeal(product)"> X Remove Deal </mat-chip>
+
+    </mat-chip-list>
+    <a [routerLink]="['/products/detail', product.productId]" >
+      <img [src]="product.imageUrl" alt="">
+    </a>
+    <a [routerLink]="['/products/detail', product.productId]"  [title]="product.name">
+      {{product.name | truncateText:43}}
+    </a>
+    <div fxLayout="row" fxLayoutAlign="space-between center" >
+      <div fxLayout="column" fxLayoutAlign="center start">
+
+        <ng-container *ngIf="product.dealPrice > 0 ">
+          <p class="old-price text-muted"><span >{{product.price | currency:'INR' }}</span></p>
+          <p class="new-price">{{product.dealPrice | currency:'INR'}}</p>
+        </ng-container>
+        <ng-container *ngIf="product.dealPrice <= 0 ">
+          <p class="new-price">{{product.price | currency:'INR'}}</p>
+        </ng-container>
+      <span>
+
+
+     <button mat-mini-fab color="primary" (click)="edit(product)" title="Edit Product"> <mat-icon>edit</mat-icon></button>&nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <button mat-mini-fab  color="warn"  (click)="delete(product)" title="Delete Product"> <mat-icon>delete</mat-icon></button>
+
+      </span>
+      </div>
+
+    </div>
+  </mat-card>
+
+
+
+
+</div>
+

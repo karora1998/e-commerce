@@ -1,0 +1,52 @@
+<mat-toolbar class="top-navbar mat-elevation-z2" fxLayoutAlign="center center">
+  <a mat-button routerLink="/deals" routerLinkActive="horizontal-active-link"
+     [routerLinkActiveOptions]="{exact:true}">Home</a>
+
+
+  <ng-container *ngFor="let category of categories$ | async; let i = index;">
+    <a class="category-link"  *ngIf="i<4" mat-button [routerLink]="['/products/category', category]" routerLinkActive="horizontal-active-link"
+       [routerLinkActiveOptions]="{exact:true}">{{category}}</a>
+  </ng-container>
+
+
+  <a mat-button [matMenuTriggerFor]="othercategories">Other Categories
+    <mat-icon class="caret">arrow_drop_down</mat-icon>
+  </a>
+  <mat-menu #othercategories="matMenu" [overlapTrigger]="false" class="app-dropdown">
+
+    <ng-container *ngFor="let category of categories$ | async; let i = index;">
+      <a class="category-link" *ngIf="i>=4" mat-menu-item [routerLink]="['/products/category', category]" routerLinkActive="horizontal-active-link"
+         [routerLinkActiveOptions]="{exact:true}">{{category}}</a>
+
+
+    </ng-container>
+
+  </mat-menu>
+
+
+<ng-container *ngIf="canShowManagerOperations">
+  <a mat-button [matMenuTriggerFor]="managerOperations">Admin/Manager Operations
+    <mat-icon class="caret">arrow_drop_down</mat-icon>
+  </a>
+  <mat-menu #managerOperations="matMenu" [overlapTrigger]="false" class="app-dropdown">
+
+
+      <a class="category-link"  mat-menu-item [routerLink]="['/manager/products']" routerLinkActive="horizontal-active-link"
+         [routerLinkActiveOptions]="{exact:true}"> Manage Products & Deals </a>
+
+    <ng-container *ngIf="canShowAdminOperations">
+      <a class="category-link"  mat-menu-item [routerLink]="['/admin/coupons']" routerLinkActive="horizontal-active-link"
+         [routerLinkActiveOptions]="{exact:true}"> Manage Coupons </a>
+      <a class="category-link"  mat-menu-item [routerLink]="['/admin/manage-users']" routerLinkActive="horizontal-active-link"
+         [routerLinkActiveOptions]="{exact:true}"> Manage Administrators & Inventory Managers </a>
+
+
+    </ng-container>
+
+
+  </mat-menu>
+
+
+</ng-container>
+
+</mat-toolbar>

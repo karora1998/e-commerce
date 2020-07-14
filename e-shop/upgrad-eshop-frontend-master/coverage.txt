@@ -1,0 +1,553 @@
+
+> upgrad-eshop-frontend@0.0.0 test-coverage C:\muthu\gitworkspace\upgrad-ecommerce\upgrad-eshop-frontend
+> ng test --code-coverage --watch=false
+
+26 04 2020 00:12:51.094:INFO [karma-server]: Karma v4.4.1 server started at http://0.0.0.0:9877/
+26 04 2020 00:12:51.107:INFO [launcher]: Launching browsers ChromeHeadless with concurrency unlimited
+26 04 2020 00:12:51.112:INFO [launcher]: Starting browser ChromeHeadless
+26 04 2020 00:13:01.410:INFO [HeadlessChrome 81.0.4044 (Windows 10.0.0)]: Connected on socket 3wNXWxOIVMVLyMBaAAAA with id 68895433
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 0 of 132 SUCCESS (0 secs / 0 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 1 of 132 SUCCESS (0 secs / 0.01 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 2 of 132 SUCCESS (0 secs / 0.028 secs)
+[1A[2KWARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 2 of 132 SUCCESS (0 secs / 0.028 secs)
+WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 3 of 132 SUCCESS (0 secs / 0.05 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 4 of 132 SUCCESS (0 secs / 0.099 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 5 of 132 SUCCESS (0 secs / 0.127 secs)
+[1A[2KLOG: 'showMessageWithClass snack'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 5 of 132 SUCCESS (0 secs / 0.127 secs)
+LOG: 'showMessageWithClass snack'
+[1A[2KLOG: 'calling'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 5 of 132 SUCCESS (0 secs / 0.127 secs)
+LOG: 'calling'
+[1A[2KLOG: 'running snack'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 5 of 132 SUCCESS (0 secs / 0.127 secs)
+LOG: 'running snack'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 6 of 132 SUCCESS (0 secs / 0.131 secs)
+[1A[2KLOG: 'showMessageWithClass snack'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 6 of 132 SUCCESS (0 secs / 0.131 secs)
+LOG: 'showMessageWithClass snack'
+[1A[2KLOG: 'calling'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 6 of 132 SUCCESS (0 secs / 0.131 secs)
+LOG: 'calling'
+[1A[2KLOG: 'running snack'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 6 of 132 SUCCESS (0 secs / 0.131 secs)
+LOG: 'running snack'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 7 of 132 SUCCESS (0 secs / 0.134 secs)
+[1A[2KLOG: 'showMessageWithClass snack'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 7 of 132 SUCCESS (0 secs / 0.134 secs)
+LOG: 'showMessageWithClass snack'
+[1A[2KLOG: 'calling'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 7 of 132 SUCCESS (0 secs / 0.134 secs)
+LOG: 'calling'
+[1A[2KLOG: 'running snack'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 7 of 132 SUCCESS (0 secs / 0.134 secs)
+LOG: 'running snack'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 8 of 132 SUCCESS (0 secs / 0.135 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 9 of 132 SUCCESS (0 secs / 0.136 secs)
+[1A[2KLOG: 'showMessageWithClass snack'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 9 of 132 SUCCESS (0 secs / 0.136 secs)
+LOG: 'showMessageWithClass snack'
+[1A[2KLOG: 'calling'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 9 of 132 SUCCESS (0 secs / 0.136 secs)
+LOG: 'calling'
+[1A[2KLOG: 'running snack'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 9 of 132 SUCCESS (0 secs / 0.136 secs)
+LOG: 'running snack'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 10 of 132 SUCCESS (0 secs / 0.137 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 11 of 132 SUCCESS (0 secs / 0.155 secs)
+[1A[2KLOG: <input _ngcontent-a-c255="" matinput="" type="text" placeholder="Type to search Products..." class="search-box" style="font-size: 18px;">
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 11 of 132 SUCCESS (0 secs / 0.155 secs)
+LOG: <input _ngcontent-a-c255="" matinput="" type="text" placeholder="Type to search Products..." class="search-box" style="font-size: 18px;">
+[1A[2KWARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 11 of 132 SUCCESS (0 secs / 0.155 secs)
+WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 12 of 132 SUCCESS (0 secs / 0.19 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 13 of 132 SUCCESS (0 secs / 0.204 secs)
+[1A[2KWARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 13 of 132 SUCCESS (0 secs / 0.204 secs)
+WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 14 of 132 SUCCESS (0 secs / 0.219 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 15 of 132 SUCCESS (0 secs / 0.23 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 16 of 132 SUCCESS (0 secs / 0.272 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 17 of 132 SUCCESS (0 secs / 0.292 secs)
+[1A[2KLOG: 'Password Changed'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 17 of 132 SUCCESS (0 secs / 0.292 secs)
+LOG: 'Password Changed'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 18 of 132 SUCCESS (0 secs / 0.299 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 19 of 132 SUCCESS (0 secs / 0.302 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 20 of 132 SUCCESS (0 secs / 0.303 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 21 of 132 SUCCESS (0 secs / 0.306 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 22 of 132 SUCCESS (0 secs / 0.308 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 23 of 132 SUCCESS (0 secs / 0.31 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 24 of 132 SUCCESS (0 secs / 0.312 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 25 of 132 SUCCESS (0 secs / 0.314 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 26 of 132 SUCCESS (0 secs / 0.341 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 27 of 132 SUCCESS (0 secs / 0.363 secs)
+[1A[2KWARN: ''mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 27 of 132 SUCCESS (0 secs / 0.363 secs)
+WARN: ''mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KWARN: ''mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 27 of 132 SUCCESS (0 secs / 0.363 secs)
+WARN: ''mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KWARN: ''mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 27 of 132 SUCCESS (0 secs / 0.363 secs)
+WARN: ''mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KWARN: ''mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 27 of 132 SUCCESS (0 secs / 0.363 secs)
+WARN: ''mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 28 of 132 SUCCESS (0 secs / 0.372 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 29 of 132 SUCCESS (0 secs / 0.374 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 30 of 132 SUCCESS (0 secs / 0.413 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 31 of 132 SUCCESS (0 secs / 0.431 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 32 of 132 SUCCESS (0 secs / 0.456 secs)
+[1A[2KWARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 32 of 132 SUCCESS (0 secs / 0.456 secs)
+WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 33 of 132 SUCCESS (0 secs / 0.471 secs)
+[1A[2KWARN: 'Spec 'ListCouponsComponent reload should reload all' has no expectations.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 33 of 132 SUCCESS (0 secs / 0.471 secs)
+WARN: 'Spec 'ListCouponsComponent reload should reload all' has no expectations.'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 34 of 132 SUCCESS (0 secs / 0.488 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 35 of 132 SUCCESS (0 secs / 0.504 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 36 of 132 SUCCESS (0 secs / 0.515 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 37 of 132 SUCCESS (0 secs / 0.525 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 38 of 132 SUCCESS (0 secs / 0.534 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 39 of 132 SUCCESS (0 secs / 0.537 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 40 of 132 SUCCESS (0 secs / 0.622 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 41 of 132 SUCCESS (0 secs / 0.678 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 42 of 132 SUCCESS (0 secs / 0.717 secs)
+[1A[2KLOG: 'url', 'http://localhost:8080/auth/login'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 42 of 132 SUCCESS (0 secs / 0.717 secs)
+LOG: 'url', 'http://localhost:8080/auth/login'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 43 of 132 SUCCESS (0 secs / 0.746 secs)
+[1A[2KLOG: 'url', 'http://localhost:8080/auth/login'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 43 of 132 SUCCESS (0 secs / 0.746 secs)
+LOG: 'url', 'http://localhost:8080/auth/login'
+[1A[2KLOG: Object{userName: 'newUser', message: 'Success', token: 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwic2NvcGVzIjoiUk9MRV9VU0VSIiwiaWF0IjoxNTg2NDU3OTA0LCJleHAiOjE1ODY1MDExMDR9.wpbc-6JzMtDEfMEJS7UXpB6u7kC8zUZKDT_xZUvYJJA'}
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 43 of 132 SUCCESS (0 secs / 0.746 secs)
+LOG: Object{userName: 'newUser', message: 'Success', token: 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwic2NvcGVzIjoiUk9MRV9VU0VSIiwiaWF0IjoxNTg2NDU3OTA0LCJleHAiOjE1ODY1MDExMDR9.wpbc-6JzMtDEfMEJS7UXpB6u7kC8zUZKDT_xZUvYJJA'}
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 44 of 132 SUCCESS (0 secs / 0.774 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 45 of 132 SUCCESS (0 secs / 0.797 secs)
+[1A[2KERROR: 'Error during cleanup of component', Object{component: ProductReviewComponent{reviewService: ReviewService{http: ...}, notificationService: Object{showErrorMessage: ..., showSuccessMessage: ..., confirm: ...}, appDataService: AppDataService{productService: ..., authService: ..., cartService: ..., showProgressBar$: ..., categories$: ..., authInfo$: ..., cartItemsCount$: ...}, canShowAddReview: false, __ngContext__: [..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ...], userName: null}, stacktrace: TypeError: Cannot read property 'unsubscribe' of undefined
+TypeError: Cannot read property 'unsubscribe' of undefined
+    at ProductReviewComponent.ngOnDestroy (http://localhost:9877/_karma_webpack_/main.js:52583:29)
+    at executeOnDestroys (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:14123:32)
+    at cleanUpView (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:14030:1)
+    at destroyViewTree (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13804:1)
+    at destroyLView (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13981:1)
+    at RootViewRef.destroy (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:14836:1)
+    at ComponentRef$1.destroy (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:33986:1)
+    at ComponentFixture.destroy (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/testing.js:423:1)
+    at http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/testing.js:3302:1
+    at Array.forEach (<anonymous>)}
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 45 of 132 SUCCESS (0 secs / 0.797 secs)
+ERROR: 'Error during cleanup of component', Object{component: ProductReviewComponent{reviewService: ReviewService{http: ...}, notificationService: Object{showErrorMessage: ..., showSuccessMessage: ..., confirm: ...}, appDataService: AppDataService{productService: ..., authService: ..., cartService: ..., showProgressBar$: ..., categories$: ..., authInfo$: ..., cartItemsCount$: ...}, canShowAddReview: false, __ngContext__: [..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ..., ...], userName: null}, stacktrace: TypeError: Cannot read property 'unsubscribe' of undefined
+TypeError: Cannot read property 'unsubscribe' of undefined
+    at ProductReviewComponent.ngOnDestroy (http://localhost:9877/_karma_webpack_/main.js:52583:29)
+    at executeOnDestroys (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:14123:32)
+    at cleanUpView (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:14030:1)
+    at destroyViewTree (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13804:1)
+    at destroyLView (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:13981:1)
+    at RootViewRef.destroy (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:14836:1)
+    at ComponentRef$1.destroy (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:33986:1)
+    at ComponentFixture.destroy (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/testing.js:423:1)
+    at http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/testing.js:3302:1
+    at Array.forEach (<anonymous>)}
+[1A[2KLOG: null
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 45 of 132 SUCCESS (0 secs / 0.797 secs)
+LOG: null
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 46 of 132 SUCCESS (0 secs / 0.802 secs)
+[1A[2KLOG: null
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 46 of 132 SUCCESS (0 secs / 0.802 secs)
+LOG: null
+[1A[2KWARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 46 of 132 SUCCESS (0 secs / 0.802 secs)
+WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 47 of 132 SUCCESS (0 secs / 0.808 secs)
+[1A[2KWARN: ''router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 47 of 132 SUCCESS (0 secs / 0.808 secs)
+WARN: ''router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 48 of 132 SUCCESS (0 secs / 0.814 secs)
+[1A[2KWARN: ''mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 48 of 132 SUCCESS (0 secs / 0.814 secs)
+WARN: ''mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 49 of 132 SUCCESS (0 secs / 0.821 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 50 of 132 SUCCESS (0 secs / 0.825 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 51 of 132 SUCCESS (0 secs / 0.839 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 52 of 132 SUCCESS (0 secs / 0.844 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 53 of 132 SUCCESS (0 secs / 0.848 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 54 of 132 SUCCESS (0 secs / 0.852 secs)
+[1A[2KWARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 54 of 132 SUCCESS (0 secs / 0.852 secs)
+WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 55 of 132 SUCCESS (0 secs / 0.857 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 56 of 132 SUCCESS (0 secs / 0.879 secs)
+[1A[2KWARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 56 of 132 SUCCESS (0 secs / 0.879 secs)
+WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 57 of 132 SUCCESS (0 secs / 0.91 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 58 of 132 SUCCESS (0 secs / 0.932 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 59 of 132 SUCCESS (0 secs / 0.951 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 60 of 132 SUCCESS (0 secs / 0.955 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 61 of 132 SUCCESS (0 secs / 0.989 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 62 of 132 SUCCESS (0 secs / 0.998 secs)
+[1A[2KLOG: AppDataService{productService: ProductService{http: HttpClient{handler: ...}}, authService: AuthService{http: HttpClient{handler: ...}}, cartService: CartService{http: HttpClient{handler: ...}}, showProgressBar$: BehaviorSubject{_isScalar: false, observers: [], closed: false, isStopped: false, hasError: false, thrownError: null, _value: false}, categories$: BehaviorSubject{_isScalar: false, observers: [], closed: false, isStopped: false, hasError: false, thrownError: null, _value: []}, authInfo$: BehaviorSubject{_isScalar: false, observers: [], closed: false, isStopped: false, hasError: false, thrownError: null, _value: null}, cartItemsCount$: BehaviorSubject{_isScalar: false, observers: [], closed: false, isStopped: false, hasError: false, thrownError: null, _value: 0}}
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 62 of 132 SUCCESS (0 secs / 0.998 secs)
+LOG: AppDataService{productService: ProductService{http: HttpClient{handler: ...}}, authService: AuthService{http: HttpClient{handler: ...}}, cartService: CartService{http: HttpClient{handler: ...}}, showProgressBar$: BehaviorSubject{_isScalar: false, observers: [], closed: false, isStopped: false, hasError: false, thrownError: null, _value: false}, categories$: BehaviorSubject{_isScalar: false, observers: [], closed: false, isStopped: false, hasError: false, thrownError: null, _value: []}, authInfo$: BehaviorSubject{_isScalar: false, observers: [], closed: false, isStopped: false, hasError: false, thrownError: null, _value: null}, cartItemsCount$: BehaviorSubject{_isScalar: false, observers: [], closed: false, isStopped: false, hasError: false, thrownError: null, _value: 0}}
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 63 of 132 SUCCESS (0 secs / 1.009 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 64 of 132 SUCCESS (0 secs / 1.022 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 65 of 132 SUCCESS (0 secs / 1.032 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 66 of 132 SUCCESS (0 secs / 1.079 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 67 of 132 SUCCESS (0 secs / 1.116 secs)
+[1A[2KWARN: ''mat-divider' is not a known element:
+1. If 'mat-divider' is an Angular component, then verify that it is part of this module.
+2. If 'mat-divider' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 67 of 132 SUCCESS (0 secs / 1.116 secs)
+WARN: ''mat-divider' is not a known element:
+1. If 'mat-divider' is an Angular component, then verify that it is part of this module.
+2. If 'mat-divider' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 68 of 132 SUCCESS (0 secs / 1.124 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 69 of 132 SUCCESS (0 secs / 1.141 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 70 of 132 SUCCESS (0 secs / 1.143 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 71 of 132 SUCCESS (0 secs / 1.143 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 72 of 132 SUCCESS (0 secs / 1.144 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 73 of 132 SUCCESS (0 secs / 1.167 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 74 of 132 SUCCESS (0 secs / 1.215 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 75 of 132 SUCCESS (0 secs / 1.218 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 76 of 132 SUCCESS (0 secs / 1.22 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 77 of 132 SUCCESS (0 secs / 1.238 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 78 of 132 SUCCESS (0 secs / 1.257 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 79 of 132 SUCCESS (0 secs / 1.315 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 80 of 132 SUCCESS (0 secs / 1.329 secs)
+[1A[2KWARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 80 of 132 SUCCESS (0 secs / 1.329 secs)
+WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 81 of 132 SUCCESS (0 secs / 1.336 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 82 of 132 SUCCESS (0 secs / 1.341 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 83 of 132 SUCCESS (0 secs / 1.344 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 84 of 132 SUCCESS (0 secs / 1.354 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 85 of 132 SUCCESS (0 secs / 1.361 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 86 of 132 SUCCESS (0 secs / 1.375 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0) ManageProductService should be created FAILED
+	Error: Uncaught (in promise): Error: Cannot match any routes. URL Segment: 'user/addresses'
+	Error: Cannot match any routes. URL Segment: 'user/addresses'
+	    at ApplyRedirects.noMatchError (http://localhost:9877/_karma_webpack_/node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js:4334:1)
+	    at CatchSubscriber.selector (http://localhost:9877/_karma_webpack_/node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js:4298:1)
+	    at CatchSubscriber.error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/operators/catchError.js:29:1)
+	    at MapSubscriber._error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:75:1)
+	    at MapSubscriber.error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:55:1)
+	    at MapSubscriber._error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:75:1)
+	    at MapSubscriber.error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:55:1)
+	    at MapSubscriber._error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:75:1)
+	    at MapSubscriber.error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:55:1)
+	    at ThrowIfEmptySubscriber._error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:75:1)
+	error properties: Object({ rejection: Error: Cannot match any routes. URL Segment: 'user/addresses', promise: [object Promise], zone: Zone({ _parent: Zone({ _parent: Zone({ _parent: Zone({ _parent: null, _name: '<root>', _properties: Object({  }), _zoneDelegate: ZoneDelegate({ _taskCounts: Object({ microTask: 0, macroTask: 0, eventTask: 0 }), zone: <circular reference: Object>, _parentDelegate: null, _forkZS: null, _forkDlgt: null, _forkCurrZone: null, _interceptZS: null, _interceptDlgt: null, _interceptCurrZone: null, _invokeZS: null, _invokeDlgt: null, _invokeCurrZone: null, _handleErrorZS: null, _handleErrorDlgt: null, _handleErrorCurrZone: null, _scheduleTaskZS: null, _scheduleTaskDlgt: null, _scheduleTaskCurrZone: null, _invokeTaskZS: null, _invokeTaskDlgt: null, _invokeTaskCurrZone: null, _cancelTaskZS: null, _cancelTaskDlgt: null, _cancelTaskCurrZone: null, _hasTaskZS: null, _hasTaskDlgt: null, _hasTaskDlgtOwner: null, _hasTaskCurrZone: null }) }), _name: 'ProxyZone', _properties: Object({ Pr ...
+	Error: Uncaught (in promise): Error: Cannot match any routes. URL Segment: 'user/addresses'
+	Error: Cannot match any routes. URL Segment: 'user/addresses'
+	    at ApplyRedirects.noMatchError (http://localhost:9877/_karma_webpack_/node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js:4334:1)
+	    at CatchSubscriber.selector (http://localhost:9877/_karma_webpack_/node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js:4298:1)
+	    at CatchSubscriber.error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/operators/catchError.js:29:1)
+	    at MapSubscriber._error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:75:1)
+	    at MapSubscriber.error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:55:1)
+	    at MapSubscriber._error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:75:1)
+	    at MapSubscriber.error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:55:1)
+	    at MapSubscriber._error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:75:1)
+	    at MapSubscriber.error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:55:1)
+	    at ThrowIfEmptySubscriber._error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:75:1)
+	    at resolvePromise (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:798:1)
+	    at resolvePromise (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:750:1)
+	    at http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:860:1
+	    at ZoneDelegate.invokeTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+	    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+	    at ZoneDelegate.invokeTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+	    at Object.onInvokeTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:273:1)
+	    at ZoneDelegate.invokeTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+	    at Object.onInvokeTask (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:41344:1)
+	    at ZoneDelegate.invokeTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+	    at <Jasmine>
+	    at Object.onScheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:117:1)
+	    at ZoneDelegate.scheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:378:1)
+	    at Object.onScheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:272:1)
+	    at ZoneDelegate.scheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:378:1)
+	    at Zone.scheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:210:1)
+	    at Zone.scheduleMicroTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:230:1)
+	    at scheduleResolveOrReject (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:847:1)
+	    at resolvePromise (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:785:1)
+	    at <Jasmine>
+	    at Object.onScheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:117:1)
+	    at ZoneDelegate.scheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:378:1)
+	    at Object.onScheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:272:1)
+	    at ZoneDelegate.scheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:378:1)
+	    at Zone.scheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:210:1)
+	    at Zone.scheduleMicroTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:230:1)
+	    at scheduleResolveOrReject (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:847:1)
+	    at ZoneAwarePromise.then (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:979:1)
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 87 of 132 (1 FAILED) (0 secs / 1.383 secs)
+HeadlessChrome 81.0.4044 (Windows 10.0.0) ManageProductService should be created FAILED
+	Error: Uncaught (in promise): Error: Cannot match any routes. URL Segment: 'user/addresses'
+	Error: Cannot match any routes. URL Segment: 'user/addresses'
+	    at ApplyRedirects.noMatchError (http://localhost:9877/_karma_webpack_/node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js:4334:1)
+	    at CatchSubscriber.selector (http://localhost:9877/_karma_webpack_/node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js:4298:1)
+	    at CatchSubscriber.error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/operators/catchError.js:29:1)
+	    at MapSubscriber._error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:75:1)
+	    at MapSubscriber.error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:55:1)
+	    at MapSubscriber._error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:75:1)
+	    at MapSubscriber.error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:55:1)
+	    at MapSubscriber._error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:75:1)
+	    at MapSubscriber.error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:55:1)
+	    at ThrowIfEmptySubscriber._error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:75:1)
+	error properties: Object({ rejection: Error: Cannot match any routes. URL Segment: 'user/addresses', promise: [object Promise], zone: Zone({ _parent: Zone({ _parent: Zone({ _parent: Zone({ _parent: null, _name: '<root>', _properties: Object({  }), _zoneDelegate: ZoneDelegate({ _taskCounts: Object({ microTask: 0, macroTask: 0, eventTask: 0 }), zone: <circular reference: Object>, _parentDelegate: null, _forkZS: null, _forkDlgt: null, _forkCurrZone: null, _interceptZS: null, _interceptDlgt: null, _interceptCurrZone: null, _invokeZS: null, _invokeDlgt: null, _invokeCurrZone: null, _handleErrorZS: null, _handleErrorDlgt: null, _handleErrorCurrZone: null, _scheduleTaskZS: null, _scheduleTaskDlgt: null, _scheduleTaskCurrZone: null, _invokeTaskZS: null, _invokeTaskDlgt: null, _invokeTaskCurrZone: null, _cancelTaskZS: null, _cancelTaskDlgt: null, _cancelTaskCurrZone: null, _hasTaskZS: null, _hasTaskDlgt: null, _hasTaskDlgtOwner: null, _hasTaskCurrZone: null }) }), _name: 'ProxyZone', _properties: Object({ Pr ...
+	Error: Uncaught (in promise): Error: Cannot match any routes. URL Segment: 'user/addresses'
+	Error: Cannot match any routes. URL Segment: 'user/addresses'
+	    at ApplyRedirects.noMatchError (http://localhost:9877/_karma_webpack_/node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js:4334:1)
+	    at CatchSubscriber.selector (http://localhost:9877/_karma_webpack_/node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js:4298:1)
+	    at CatchSubscriber.error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/operators/catchError.js:29:1)
+	    at MapSubscriber._error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:75:1)
+	    at MapSubscriber.error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:55:1)
+	    at MapSubscriber._error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:75:1)
+	    at MapSubscriber.error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:55:1)
+	    at MapSubscriber._error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:75:1)
+	    at MapSubscriber.error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:55:1)
+	    at ThrowIfEmptySubscriber._error (http://localhost:9877/_karma_webpack_/node_modules/rxjs/_esm2015/internal/Subscriber.js:75:1)
+	    at resolvePromise (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:798:1)
+	    at resolvePromise (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:750:1)
+	    at http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:860:1
+	    at ZoneDelegate.invokeTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+	    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+	    at ZoneDelegate.invokeTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+	    at Object.onInvokeTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:273:1)
+	    at ZoneDelegate.invokeTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+	    at Object.onInvokeTask (http://localhost:9877/_karma_webpack_/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js:41344:1)
+	    at ZoneDelegate.invokeTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:398:1)
+	    at <Jasmine>
+	    at Object.onScheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:117:1)
+	    at ZoneDelegate.scheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:378:1)
+	    at Object.onScheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:272:1)
+	    at ZoneDelegate.scheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:378:1)
+	    at Zone.scheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:210:1)
+	    at Zone.scheduleMicroTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:230:1)
+	    at scheduleResolveOrReject (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:847:1)
+	    at resolvePromise (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:785:1)
+	    at <Jasmine>
+	    at Object.onScheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:117:1)
+	    at ZoneDelegate.scheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:378:1)
+	    at Object.onScheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:272:1)
+	    at ZoneDelegate.scheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:378:1)
+	    at Zone.scheduleTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:210:1)
+	    at Zone.scheduleMicroTask (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:230:1)
+	    at scheduleResolveOrReject (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:847:1)
+	    at ZoneAwarePromise.then (http://localhost:9877/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:979:1)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 88 of 132 (1 FAILED) (0 secs / 1.399 secs)
+[1A[2KLOG: 'sending  for http://localhost:8080/products?pageNo=0&pageSize=10&direction=DESC with ', Object{content: [Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}], pageable: Object{sort: Object{sorted: ..., unsorted: ..., empty: ...}, offset: 0, pageSize: 10, pageNumber: 0, unpaged: false, paged: true}, totalPages: 16, totalElements: 154, last: false, size: 10, number: 0, sort: Object{sorted: true, unsorted: false, empty: false}, numberOfElements: 10, first: true, empty: false}
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 88 of 132 (1 FAILED) (0 secs / 1.399 secs)
+LOG: 'sending  for http://localhost:8080/products?pageNo=0&pageSize=10&direction=DESC with ', Object{content: [Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Object{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}], pageable: Object{sort: Object{sorted: ..., unsorted: ..., empty: ...}, offset: 0, pageSize: 10, pageNumber: 0, unpaged: false, paged: true}, totalPages: 16, totalElements: 154, last: false, size: 10, number: 0, sort: Object{sorted: true, unsorted: false, empty: false}, numberOfElements: 10, first: true, empty: false}
+[1A[2KLOG: ProductResponse{pageable: Pageable{itemsPerPage: 10, pageNo: 0, sortBy: '', sortDirection: 'DESC', total: 154, totalPages: 16}, products: [Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}]}
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 88 of 132 (1 FAILED) (0 secs / 1.399 secs)
+LOG: ProductResponse{pageable: Pageable{itemsPerPage: 10, pageNo: 0, sortBy: '', sortDirection: 'DESC', total: 154, totalPages: 16}, products: [Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}, Product{productId: ..., name: ..., category: ..., price: ..., dealPrice: ..., calculatedPrice: ..., description: ..., manufacturer: ..., availableItems: ..., overAllRating: ..., imageUrl: ..., created: ..., updated: ...}]}
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 89 of 132 (1 FAILED) (0 secs / 1.403 secs)
+[1A[2KLOG: 'Invalid user details'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 89 of 132 (1 FAILED) (0 secs / 1.403 secs)
+LOG: 'Invalid user details'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 90 of 132 (1 FAILED) (0 secs / 1.45 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 91 of 132 (1 FAILED) (0 secs / 1.468 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 92 of 132 (1 FAILED) (0 secs / 1.482 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 93 of 132 (1 FAILED) (0 secs / 1.5 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 94 of 132 (1 FAILED) (0 secs / 1.567 secs)
+[1A[2KWARN: 'Spec 'Integrated Tests - Product Component calling reloadBasedOnSort should reload Data based on Sort Parameters' has no expectations.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 94 of 132 (1 FAILED) (0 secs / 1.567 secs)
+WARN: 'Spec 'Integrated Tests - Product Component calling reloadBasedOnSort should reload Data based on Sort Parameters' has no expectations.'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 95 of 132 (1 FAILED) (0 secs / 1.695 secs)
+[1A[2KWARN: 'Spec 'Integrated Tests - Product Component calling reloadBasedOnRating should reload Data based on Rating Parameters' has no expectations.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 95 of 132 (1 FAILED) (0 secs / 1.695 secs)
+WARN: 'Spec 'Integrated Tests - Product Component calling reloadBasedOnRating should reload Data based on Rating Parameters' has no expectations.'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 96 of 132 (1 FAILED) (0 secs / 1.816 secs)
+[1A[2KWARN: 'Spec 'Integrated Tests - Product Component calling onPageChange should increment page Number and reload Data' has no expectations.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 96 of 132 (1 FAILED) (0 secs / 1.816 secs)
+WARN: 'Spec 'Integrated Tests - Product Component calling onPageChange should increment page Number and reload Data' has no expectations.'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 97 of 132 (1 FAILED) (0 secs / 1.915 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 98 of 132 (1 FAILED) (0 secs / 1.947 secs)
+[1A[2KLOG: 'url', 'http://localhost:8080/auth/login'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 98 of 132 (1 FAILED) (0 secs / 1.947 secs)
+LOG: 'url', 'http://localhost:8080/auth/login'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 99 of 132 (1 FAILED) (0 secs / 1.951 secs)
+[1A[2KLOG: 'url', 'http://localhost:8080/auth/login'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 99 of 132 (1 FAILED) (0 secs / 1.951 secs)
+LOG: 'url', 'http://localhost:8080/auth/login'
+[1A[2KLOG: Object{userName: 'user', message: 'Success', token: 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwic2NvcGVzIjoiUk9MRV9VU0VSIiwiaWF0IjoxNTg2NDU3OTA0LCJleHAiOjE1ODY1MDExMDR9.wpbc-6JzMtDEfMEJS7UXpB6u7kC8zUZKDT_xZUvYJJA'}
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 99 of 132 (1 FAILED) (0 secs / 1.951 secs)
+LOG: Object{userName: 'user', message: 'Success', token: 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwic2NvcGVzIjoiUk9MRV9VU0VSIiwiaWF0IjoxNTg2NDU3OTA0LCJleHAiOjE1ODY1MDExMDR9.wpbc-6JzMtDEfMEJS7UXpB6u7kC8zUZKDT_xZUvYJJA'}
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 100 of 132 (1 FAILED) (0 secs / 1.955 secs)
+[1A[2KLOG: 'url', 'http://localhost:8080/auth/login'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 100 of 132 (1 FAILED) (0 secs / 1.955 secs)
+LOG: 'url', 'http://localhost:8080/auth/login'
+[1A[2KLOG: Object{userName: 'newusera', message: 'Success', token: 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwic2NvcGVzIjoiUk9MRV9VU0VSIiwiaWF0IjoxNTg2NDU3OTA0LCJleHAiOjE1ODY1MDExMDR9.wpbc-6JzMtDEfMEJS7UXpB6u7kC8zUZKDT_xZUvYJJA'}
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 100 of 132 (1 FAILED) (0 secs / 1.955 secs)
+LOG: Object{userName: 'newusera', message: 'Success', token: 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwic2NvcGVzIjoiUk9MRV9VU0VSIiwiaWF0IjoxNTg2NDU3OTA0LCJleHAiOjE1ODY1MDExMDR9.wpbc-6JzMtDEfMEJS7UXpB6u7kC8zUZKDT_xZUvYJJA'}
+[1A[2KLOG: AuthInfo{token: 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwic2NvcGVzIjoiUk9MRV9VU0VSIiwiaWF0IjoxNTg2NDU3OTA0LCJleHAiOjE1ODY1MDExMDR9.wpbc-6JzMtDEfMEJS7UXpB6u7kC8zUZKDT_xZUvYJJA', user: User{id: 4, userName: 'newusera', firstName: 'MK', email: 'newusera@upgrad.com', lastName: 'Gandhi', phoneNumber: '+91988989232', created: Thu Apr 09 2020 18:48:55 GMT+0530 (India Standard Time), updated: Thu Apr 09 2020 18:48:55 GMT+0530 (India Standard Time), role: 0, roleText: 'USER', addresses: null}}
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 100 of 132 (1 FAILED) (0 secs / 1.955 secs)
+LOG: AuthInfo{token: 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwic2NvcGVzIjoiUk9MRV9VU0VSIiwiaWF0IjoxNTg2NDU3OTA0LCJleHAiOjE1ODY1MDExMDR9.wpbc-6JzMtDEfMEJS7UXpB6u7kC8zUZKDT_xZUvYJJA', user: User{id: 4, userName: 'newusera', firstName: 'MK', email: 'newusera@upgrad.com', lastName: 'Gandhi', phoneNumber: '+91988989232', created: Thu Apr 09 2020 18:48:55 GMT+0530 (India Standard Time), updated: Thu Apr 09 2020 18:48:55 GMT+0530 (India Standard Time), role: 0, roleText: 'USER', addresses: null}}
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 101 of 132 (1 FAILED) (0 secs / 1.964 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 102 of 132 (1 FAILED) (0 secs / 2.062 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 103 of 132 (1 FAILED) (0 secs / 2.117 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 104 of 132 (1 FAILED) (0 secs / 2.178 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 105 of 132 (1 FAILED) (0 secs / 2.232 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 106 of 132 (1 FAILED) (0 secs / 2.255 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 107 of 132 (1 FAILED) (0 secs / 2.258 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 108 of 132 (1 FAILED) (0 secs / 2.271 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 109 of 132 (1 FAILED) (0 secs / 2.341 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 110 of 132 (1 FAILED) (0 secs / 2.396 secs)
+[1A[2KLOG: 'url', 'http://localhost:8080/auth/login'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 110 of 132 (1 FAILED) (0 secs / 2.396 secs)
+LOG: 'url', 'http://localhost:8080/auth/login'
+[1A[2KLOG: Object{userName: 'newUser', message: 'Success', token: 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwic2NvcGVzIjoiUk9MRV9VU0VSIiwiaWF0IjoxNTg2NDU3OTA0LCJleHAiOjE1ODY1MDExMDR9.wpbc-6JzMtDEfMEJS7UXpB6u7kC8zUZKDT_xZUvYJJA'}
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 110 of 132 (1 FAILED) (0 secs / 2.396 secs)
+LOG: Object{userName: 'newUser', message: 'Success', token: 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwic2NvcGVzIjoiUk9MRV9VU0VSIiwiaWF0IjoxNTg2NDU3OTA0LCJleHAiOjE1ODY1MDExMDR9.wpbc-6JzMtDEfMEJS7UXpB6u7kC8zUZKDT_xZUvYJJA'}
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 111 of 132 (1 FAILED) (0 secs / 2.451 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 112 of 132 (1 FAILED) (0 secs / 2.504 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 113 of 132 (1 FAILED) (0 secs / 2.517 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 114 of 132 (1 FAILED) (0 secs / 2.532 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 115 of 132 (1 FAILED) (0 secs / 2.54 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 116 of 132 (1 FAILED) (0 secs / 2.547 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 117 of 132 (1 FAILED) (0 secs / 2.554 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 118 of 132 (1 FAILED) (0 secs / 2.564 secs)
+[1A[2KWARN: ''mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 118 of 132 (1 FAILED) (0 secs / 2.564 secs)
+WARN: ''mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KWARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 118 of 132 (1 FAILED) (0 secs / 2.564 secs)
+WARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+[1A[2KWARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 118 of 132 (1 FAILED) (0 secs / 2.564 secs)
+WARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+[1A[2KWARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 118 of 132 (1 FAILED) (0 secs / 2.564 secs)
+WARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+[1A[2KWARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 118 of 132 (1 FAILED) (0 secs / 2.564 secs)
+WARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+[1A[2KWARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 118 of 132 (1 FAILED) (0 secs / 2.564 secs)
+WARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 119 of 132 (1 FAILED) (0 secs / 2.577 secs)
+[1A[2KWARN: ''mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 119 of 132 (1 FAILED) (0 secs / 2.577 secs)
+WARN: ''mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KWARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 119 of 132 (1 FAILED) (0 secs / 2.577 secs)
+WARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+[1A[2KWARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 119 of 132 (1 FAILED) (0 secs / 2.577 secs)
+WARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+[1A[2KWARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 119 of 132 (1 FAILED) (0 secs / 2.577 secs)
+WARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+[1A[2KWARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 119 of 132 (1 FAILED) (0 secs / 2.577 secs)
+WARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+[1A[2KWARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 119 of 132 (1 FAILED) (0 secs / 2.577 secs)
+WARN: 'Can't bind to 'color' since it isn't a known property of 'button'.'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 120 of 132 (1 FAILED) (0 secs / 2.584 secs)
+[1A[2KLOG: 'showErrorMessage  Unable to copy Coupon'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 120 of 132 (1 FAILED) (0 secs / 2.584 secs)
+LOG: 'showErrorMessage  Unable to copy Coupon'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 121 of 132 (1 FAILED) (0 secs / 2.592 secs)
+[1A[2KLOG: 'showSuccessMessageCoupon Copied to clipboard'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 121 of 132 (1 FAILED) (0 secs / 2.592 secs)
+LOG: 'showSuccessMessageCoupon Copied to clipboard'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 122 of 132 (1 FAILED) (0 secs / 2.602 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 123 of 132 (1 FAILED) (0 secs / 2.615 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 124 of 132 (1 FAILED) (0 secs / 2.618 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 125 of 132 (1 FAILED) (0 secs / 2.621 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 126 of 132 (1 FAILED) (0 secs / 2.64 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 127 of 132 (1 FAILED) (0 secs / 2.649 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 128 of 132 (1 FAILED) (0 secs / 2.661 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 129 of 132 (1 FAILED) (0 secs / 2.671 secs)
+[1A[2KWARN: 'Can't bind to 'matBadge' since it isn't a known property of 'mat-icon'.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 129 of 132 (1 FAILED) (0 secs / 2.671 secs)
+WARN: 'Can't bind to 'matBadge' since it isn't a known property of 'mat-icon'.'
+[1A[2KWARN: 'Can't bind to 'matBadgeHidden' since it isn't a known property of 'mat-icon'.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 129 of 132 (1 FAILED) (0 secs / 2.671 secs)
+WARN: 'Can't bind to 'matBadgeHidden' since it isn't a known property of 'mat-icon'.'
+[1A[2KLOG: 2
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 129 of 132 (1 FAILED) (0 secs / 2.671 secs)
+LOG: 2
+[1A[2KWARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 129 of 132 (1 FAILED) (0 secs / 2.671 secs)
+WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+[1A[2KLOG: Object{user: Object{id: 1, userName: 'user', firstName: '', lastName: '', email: 'user@upgrad.com', phoneNumber: '+919629150400', created: Wed Apr 08 2020 13:04:46 GMT+0530 (India Standard Time), updated: Wed Apr 08 2020 13:04:46 GMT+0530 (India Standard Time), role: 0, addresses: []}, token: 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwic2NvcGVzIjoiUk9MRV9VU0VSIiwiaWF0IjoxNTg2NjkxMzAxLCJleHAiOjE1ODY3MzQ1MDF9.3bFZhVT77AZvl0EYG8Fyx2dEFL4pYgYDZeUXc_w2vi0'}
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 129 of 132 (1 FAILED) (0 secs / 2.671 secs)
+LOG: Object{user: Object{id: 1, userName: 'user', firstName: '', lastName: '', email: 'user@upgrad.com', phoneNumber: '+919629150400', created: Wed Apr 08 2020 13:04:46 GMT+0530 (India Standard Time), updated: Wed Apr 08 2020 13:04:46 GMT+0530 (India Standard Time), role: 0, addresses: []}, token: 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwic2NvcGVzIjoiUk9MRV9VU0VSIiwiaWF0IjoxNTg2NjkxMzAxLCJleHAiOjE1ODY3MzQ1MDF9.3bFZhVT77AZvl0EYG8Fyx2dEFL4pYgYDZeUXc_w2vi0'}
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 130 of 132 (1 FAILED) (0 secs / 2.685 secs)
+[1A[2KWARN: 'Can't bind to 'matBadge' since it isn't a known property of 'mat-icon'.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 130 of 132 (1 FAILED) (0 secs / 2.685 secs)
+WARN: 'Can't bind to 'matBadge' since it isn't a known property of 'mat-icon'.'
+[1A[2KWARN: 'Can't bind to 'matBadgeHidden' since it isn't a known property of 'mat-icon'.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 130 of 132 (1 FAILED) (0 secs / 2.685 secs)
+WARN: 'Can't bind to 'matBadgeHidden' since it isn't a known property of 'mat-icon'.'
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 131 of 132 (1 FAILED) (0 secs / 2.696 secs)
+[1A[2KWARN: 'Can't bind to 'matBadge' since it isn't a known property of 'mat-icon'.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 131 of 132 (1 FAILED) (0 secs / 2.696 secs)
+WARN: 'Can't bind to 'matBadge' since it isn't a known property of 'mat-icon'.'
+[1A[2KWARN: 'Can't bind to 'matBadgeHidden' since it isn't a known property of 'mat-icon'.'
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 131 of 132 (1 FAILED) (0 secs / 2.696 secs)
+WARN: 'Can't bind to 'matBadgeHidden' since it isn't a known property of 'mat-icon'.'
+[1A[2KLOG: 0
+HeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 131 of 132 (1 FAILED) (0 secs / 2.696 secs)
+LOG: 0
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 132 of 132 (1 FAILED) (0 secs / 2.708 secs)
+[1A[2KHeadlessChrome 81.0.4044 (Windows 10.0.0): Executed 132 of 132 (1 FAILED) (3.506 secs / 2.708 secs)
+TOTAL: 1 FAILED, 131 SUCCESS
+TOTAL: 1 FAILED, 131 SUCCESS
+TOTAL: 1 FAILED, 131 SUCCESS
+
+=============================== Coverage summary ===============================
+Statements   : 63.39% ( 973/1535 )
+Branches     : 55.26% ( 126/228 )
+Functions    : 51.24% ( 352/687 )
+Lines        : 57.25% ( 734/1282 )
+================================================================================
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! upgrad-eshop-frontend@0.0.0 test-coverage: `ng test --code-coverage --watch=false`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the upgrad-eshop-frontend@0.0.0 test-coverage script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\muthuishere\AppData\Roaming\npm-cache\_logs\2020-04-25T18_43_09_602Z-debug.log

@@ -1,0 +1,25 @@
+:host{
+
+
+  height: 100%;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .center-container{
+    width: 70%;
+    max-width: 1300px;
+    margin: 0 auto;
+
+
+  }
+  img{
+
+    width: 100%;
+    min-width: 200px;
+    height: auto;
+  }
+
+
+}

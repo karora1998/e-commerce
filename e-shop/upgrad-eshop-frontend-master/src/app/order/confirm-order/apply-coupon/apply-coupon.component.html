@@ -1,0 +1,22 @@
+<form  [formGroup]="couponForm" (ngSubmit)="onCouponFormSubmit()">
+      <div fxFlex="100" fxFlex.gt-sm="100" class="mt-20"  >
+
+        <mat-card class="choose-address-item" >
+
+
+
+          <mat-card-content>
+          <div fxFlex="100" fxFlex.gt-sm="80" class="px-1">
+            <input matInput placeholder="Apply Coupon Code" formControlName="code" required>
+          </div>
+          <div fxFlex="100" fxFlex.gt-sm="20" class="px-1">
+
+            <button mat-raised-button color="primary" type="submit">Apply</button>
+
+          </div>
+          </mat-card-content>
+        </mat-card>
+
+
+      </div>
+</form>

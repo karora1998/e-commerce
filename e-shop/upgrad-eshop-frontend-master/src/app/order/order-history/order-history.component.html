@@ -1,0 +1,65 @@
+
+
+<div fxLayout="row" fxLayoutAlign="space-around center">
+  <div fxFlex="66.6" fxLayoutAlign="start" class="mt-30">
+    <div fxFlexFill>
+
+      <div class="pull-left"><h2>Orders</h2></div>
+
+      <div class="clear-both"></div>
+
+
+      <ng-container >
+        <table mat-table [dataSource]="orders$ | async">
+
+
+
+          <ng-container matColumnDef="id">
+            <th mat-header-cell *matHeaderCellDef> Order ID</th>
+            <td mat-cell *matCellDef="let element">
+
+              <a routerLink="/orders/detail/{{element.id}}"> {{element.id}} </a></td>
+          </ng-container>
+
+
+          <ng-container matColumnDef="itemcount">
+            <th mat-header-cell *matHeaderCellDef> Total Items</th>
+            <td mat-cell *matCellDef="let element"> {{element.cart.cartItems.length}} </td>
+          </ng-container>
+
+
+          <ng-container matColumnDef="dateofpurchase">
+            <th mat-header-cell *matHeaderCellDef> Date of Purchase</th>
+            <td mat-cell *matCellDef="let element"> {{element.orderDate | date:'mediumDate'}} </td>
+          </ng-container>
+
+
+          <ng-container matColumnDef="status">
+            <th mat-header-cell *matHeaderCellDef> Order Status</th>
+            <td mat-cell *matCellDef="let element"> {{element.statusTxt}} </td>
+          </ng-container>
+          <ng-container matColumnDef="amount">
+            <th mat-header-cell *matHeaderCellDef> Final Amount</th>
+            <td mat-cell *matCellDef="let element"> {{element.finalAmount | currency:"INR"}} </td>
+          </ng-container>
+
+
+
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+
+      </ng-container>
+      <div fxFlexFill fxLayoutAlign="end center" style="background-color: white">
+        <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+      </div>
+
+      <mat-divider style="margin-top: 20px"></mat-divider>
+    </div>
+
+
+  </div>
+</div>
+
+

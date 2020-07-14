@@ -1,0 +1,72 @@
+<div fxLayout="row wrap" *ngIf="product">
+  <div fxFlex="100" fxFlex.gt-sm="100" class="p-20">
+
+
+    <mat-card class="h-100 p-10 mb-20" *ngFor="let review of reviews">
+
+
+
+
+        <div  >
+         <div class="pull-left"><b>{{review.user.userName | titlecase}}</b> </div>
+          <div class="pull-right">
+
+          <span>  <app-rating-display [stars]="review.rating" defaultValue=""></app-rating-display></span>
+            <span *ngIf="review.user.userName === userName">
+
+              <button mat-raised-button color="warn" (click)="delete(review)" title="Delete Review">
+               Delete
+             </button></span>
+          </div>
+
+        </div>
+
+        <div class="clear-both text-muted txt-10">
+          Reviewed on {{review.updated | date:'mediumDate'}}
+        </div>
+
+        <div>
+          {{review.comment}}
+        </div>
+
+
+
+    </mat-card>
+
+
+
+<app-add-review *ngIf="canShowAddReview" (onComplete)="onAddReviewComplete()" [product]="product"></app-add-review>
+</div>
+</div>
+
+  <!--              <form [formGroup]="form" (ngSubmit)="onSubmit(form.value)" fxLayout="row wrap">-->
+  <!--                <div fxFlex="100" class="px-1 mt-10">-->
+  <!--                  <mat-form-field appearance="outline" class="w-100">-->
+  <!--                    <mat-label>Your review</mat-label>-->
+  <!--                    <textarea matInput placeholder="Your review" formControlName="review" required rows="5"></textarea>-->
+  <!--                    <mat-error *ngIf="form.controls.review.errors?.required">Review is required</mat-error>-->
+  <!--                  </mat-form-field>-->
+  <!--                </div>-->
+  <!--                <div fxFlex="100" fxFlex.gt-sm="50" class="px-1 mt-2">-->
+  <!--                  <mat-form-field appearance="outline" class="w-100">-->
+  <!--                    <mat-label>Your name</mat-label>-->
+  <!--                    <input matInput placeholder="Your name" formControlName="name" required>-->
+  <!--                    <mat-error *ngIf="form.controls.name.errors?.required">Name is required</mat-error>-->
+  <!--                    <mat-error *ngIf="form.controls.name.hasError('minlength')">Name isn't long enough, minimum of 4 characters</mat-error>-->
+  <!--                  </mat-form-field>-->
+  <!--                </div>-->
+  <!--                <div fxFlex="100" fxFlex.gt-sm="50" class="px-1 mt-2">-->
+  <!--                  <mat-form-field appearance="outline" class="w-100">-->
+  <!--                    <mat-label>Your email</mat-label>-->
+  <!--                    <input matInput placeholder="Your email" formControlName="email" required>-->
+  <!--                    <mat-error *ngIf="form.controls.email.errors?.required">Email is required</mat-error>-->
+  <!--                    <mat-error *ngIf="form.controls.email.hasError('invalidEmail')">Invalid email address</mat-error>-->
+  <!--                  </mat-form-field>-->
+  <!--                </div>-->
+  <!--                <div fxFlex="100" class="mt-2 text-center w-100">-->
+  <!--                  <button mat-raised-button color="primary" type="submit">SUBMIT REVIEW</button>-->
+  <!--                </div>-->
+  <!--              </form>-->
+
+
+

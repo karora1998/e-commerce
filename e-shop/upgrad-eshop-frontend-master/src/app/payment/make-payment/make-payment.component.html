@@ -1,0 +1,25 @@
+<div fxLayout="column" fxFlexFill fxLayoutAlign="center center" *ngIf="payment">
+
+
+
+      <ng-container *ngIf="isProcessing; else payBlock">
+
+          <mat-progress-bar mode="buffer"></mat-progress-bar>
+
+
+        <h3 class="primary-text"> {{  progressTxt}} </h3>
+
+      </ng-container>
+      <ng-template #payBlock>
+        <div fxLayout="row wrap">
+          <div fxFlex="100" fxFlex.gt-sm="100" class="p-20">
+        <h2>Make Payment</h2>
+        <mat-card class="choose-address-item" class="w-100">
+          <button mat-raised-button color="accent" (click)="makePayment()">Pay with Razor Pay</button>
+        </mat-card>
+          </div>
+        </div>
+      </ng-template>
+
+
+</div>
